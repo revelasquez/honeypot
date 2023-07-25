@@ -24,9 +24,9 @@ cd honeypot
 ```
 - Levantar el proyecto
 ```sh
-python manage.py runserver
+python3 manage.py runserver
 ```
 - Para Levantar el proyecto en un ip o puerto especifico
 ```sh
-python manage.py runserver 0.0.0.0:8000
+python3 manage.py runserver 0.0.0.0:8000
 ```
