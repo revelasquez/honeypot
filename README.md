@@ -18,9 +18,26 @@ git clone https://github.com/revelasquez/honeypot.git
 virtualenv venv
 source venv/bin/activate
 ```
+- instalar la libreria para la base de datos
+```sh
+pip3 install psycopg2.binary
+```
 - Ingresar al proyecto
 ```sh
 cd honeypot
+```
+- Instalar el honeypotadmin
+```
+pip3 install django-admin-honeypot-advanced
+```
+- Ejecutar las migraciones a la base de datos
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+- crear un superusuario
+```
+python3 manage.py createsuperuser
 ```
 - Levantar el proyecto
 ```sh
