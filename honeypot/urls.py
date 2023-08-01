@@ -21,4 +21,5 @@ from django.conf.urls import include
 urlpatterns = [
     path('secret/', admin.site.urls),
     path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
+    #path('admin', 'admin_honeypot.urls')
 ]
