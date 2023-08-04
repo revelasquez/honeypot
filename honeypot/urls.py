@@ -23,3 +23,4 @@ urlpatterns = [
     path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
     #path('admin', 'admin_honeypot.urls')
 ]
+handler404 = 'admin_honeypot.views.handler404'
