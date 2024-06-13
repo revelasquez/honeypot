@@ -1,0 +1,13 @@
+Django
+djangorestframework
+django-environ
+django-heroku
+django-cors-headers
+Pillow
+pip
+psycopg2-binary
+djangorestframework-simplejwt
+openpyxl
+fs
+django-ipware
+csvkit

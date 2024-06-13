@@ -1,0 +1,4 @@
+admin_honeypot/__pycache__
+admin_honeypot/migrations/
+honeypot/__pycache__
+.env
